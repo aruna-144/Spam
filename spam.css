@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(./img/bg-img.jpeg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+#spamForm label{
+    font-size: 70px;
+    font-weight: 900;
+    background: linear-gradient(to right, #316fc1, #1cdfe8);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 10px;
+    background-image: url(./img/giphy\ \(1\).webp);
+   
+}
+textarea#message {
+    border-radius: 5px;
+    background-color: #e7fefb;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 900;
+}
+#spamForm button{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 10px 50px;
+    border-radius: 45px;
+    color: #66bbf4;
+    background-image: url(./img/giphy.webp);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 #1594e8;
+}
+#spamForm button:hover{
+    background-image: url(./img/btn-bg.webp);
+    box-shadow: 0 20px 50px 0 #ccea09,0 30px 80px 0 #1afd80;
+}
+.result{
+    font-size: 50px;
+    color: #e6ff04;
+    font-weight: 900;
+}
+
